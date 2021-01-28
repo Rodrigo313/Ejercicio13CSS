@@ -204,15 +204,15 @@ h3 {
 .footer .contenedor-casas {
         /*Aquí va el posicionamiento grid */
         display: grid;
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 1fr);
         
 }
 
 .footer .contenedor-casas .casa {
         /*Aquí va el posicionamiento grid */
         display: grid;
-        
-        
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1em;
 }
 .footer .contenedor-casas .casa p {
     margin: 0;
